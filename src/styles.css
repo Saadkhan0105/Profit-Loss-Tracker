@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+input, button, select {
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button, .delete-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
